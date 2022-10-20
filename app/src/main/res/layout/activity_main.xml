@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroll"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/back1"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_alignBottom="@+id/linearLayout2"
+            android:layout_marginTop="120dp"
+            >
+            <ImageView
+                android:id="@+id/card1"
+                android:layout_width="100dp"
+                android:src="@drawable/card"
+                android:layout_weight="1"
+                android:layout_height="120dp" />
+
+            <ImageView
+                android:id="@+id/card2"
+                android:layout_width="100dp"
+                android:src="@drawable/card"
+                android:layout_weight="1"
+                android:layout_height="120dp" />
+            <ImageView
+                android:id="@+id/card3"
+                android:layout_width="100dp"
+                android:src="@drawable/card"
+                android:layout_weight="1"
+                android:layout_height="120dp" />
+
+            <ImageView
+                android:id="@+id/card4"
+                android:layout_width="100dp"
+                android:src="@drawable/card"
+                android:layout_weight="1"
+                android:layout_height="120dp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50px"
+            >
+
+            <Button
+                android:id="@+id/clear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_weight="1"
+                android:text="清空" />
+
+            <Button
+                android:id="@+id/next"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_weight="1"
+                android:text="完成选择" />
+        </LinearLayout>
+
+
+
+
+
+        <LinearLayout
+            android:id="@+id/linearLayout4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            >
+
+            <ImageButton
+                android:id="@+id/card1_1"
+                android:layout_width="100dp"
+                android:background="@drawable/card1_1"
+                android:layout_weight="1"
+                android:layout_height="80dp" />
+
+            <ImageButton
+                android:id="@+id/card1_2"
+                android:layout_width="100dp"
+                android:background="@drawable/card1_2"
+                android:layout_weight="1"
+                android:layout_height="80dp" />
+            <ImageButton
+                android:id="@+id/card1_3"
+                android:layout_width="100dp"
+                android:background="@drawable/card1_3"
+                android:layout_weight="1"
+                android:layout_height="80dp" />
+
+            <ImageButton
+                android:id="@+id/card1_4"
+                android:layout_width="100dp"
+                android:background="@drawable/card1_4"
+                android:layout_weight="1"
+                android:layout_height="80dp" />
+
+            <ImageButton
+                android:id="@+id/card1_5"
+                android:layout_width="100dp"
+                android:background="@drawable/card1_5"
+                android:layout_weight="1"
+                android:layout_height="80dp" />
+
+            <ImageButton
+                android:id="@+id/card1_6"
+                android:layout_width="100dp"
+                android:background="@drawable/card1_6"
+                android:layout_weight="1"
+                android:layout_height="80dp" />
+            <ImageButton
+                android:id="@+id/card1_7"
+                android:layout_width="100dp"
+                android:background="@drawable/card1_7"
+                android:layout_weight="1"
+                android:layout_height="80dp" />
+
+            <ImageButton
+                android:id="@+id/card1_8"
+                android:layout_width="100dp"
+                android:background="@drawable/card1_8"
+                android:layout_weight="1"
+                android:layout_height="80dp" />
+
+            <ImageButton
+                android:id="@+id/card1_9"
+                android:layout_width="100dp"
+                android:background="@drawable/card1_9"
+                android:layout_weight="1"
+                android:layout_height="80dp" />
+
+            <ImageButton
+                android:id="@+id/card1_10"
+                android:layout_width="100dp"
+                android:background="@drawable/card1_10"
+                android:layout_weight="1"
+                android:layout_height="80dp" />
+            <ImageButton
+                android:id="@+id/card1_11"
+                android:layout_width="100dp"
+                android:src="@drawable/card"
+                android:layout_weight="1"
+                android:layout_height="80dp" />
+
+            <ImageButton
+                android:id="@+id/card1_12"
+                android:layout_width="100dp"
+                android:src="@drawable/card"
+                android:layout_weight="1"
+                android:layout_height="80dp" />
+
+            <ImageButton
+                android:id="@+id/card1_13"
+                android:layout_width="100dp"
+                android:src="@drawable/card"
+                android:layout_weight="1"
+                android:layout_height="80dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            >
+
+            <ImageButton
+                android:id="@+id/card2_1"
+                android:layout_width="100dp"
+                android:background="@drawable/card2_1"
+                android:layout_weight="1"
+                android:layout_height="80dp" />
+
+            <ImageButton
+                android:id="@+id/card2_2"
+                android:layout_width="100dp"
+                android:background="@drawable/card2_2"
+                android:layout_weight="1"
+                android:layout_height="80dp" />
+            <ImageButton
+                android:id="@+id/card2_3"
+                android:layout_width="100dp"
+                android:background="@drawable/card2_3"
+                android:layout_weight="1"
+                android:layout_height="80dp" />
+
+            <ImageButton
+                android:id="@+id/card2_4"
+                android:layout_width="100dp"
+                android:background="@drawable/card2_4"
+                android:layout_weight="1"
+                android:layout_height="80dp" />
+
+            <ImageButton
+                android:id="@+id/card2_5"
+                android:layout_width="100dp"
+                android:background="@drawable/card2_5"
+                android:layout_weight="1"
+                android:layout_height="80dp" />
+
+            <ImageButton
+                android:id="@+id/card2_6"
+                android:layout_width="100dp"
+                android:background="@drawable/card2_6"
+                android:layout_weight="1"
+                android:layout_height="80dp" />
+            <ImageButton
+                android:id="@+id/card2_7"
+                android:layout_width="100dp"
+                android:background="@drawable/card2_7"
+                android:layout_weight="1"
+                android:layout_height="80dp" />
+
+            <ImageButton
+                android:id="@+id/card2_8"
+                android:layout_width="100dp"
+                android:background="@drawable/card2_8"
+                android:layout_weight="1"
+                android:layout_height="80dp" />
+
+            <ImageButton
+                android:id="@+id/card2_9"
+                android:layout_width="100dp"
+                android:background="@drawable/card2_9"
+                android:layout_weight="1"
+                android:layout_height="80dp" />
+
+            <ImageButton
+                android:id="@+id/card2_10"
+                android:layout_width="100dp"
+                android:background="@drawable/card2_10"
+                android:layout_weight="1"
+                android:layout_height="80dp" />
+            <ImageButton
+                android:id="@+id/card2_11"
+                android:layout_width="100dp"
+                android:src="@drawable/card"
+                android:layout_weight="1"
+                android:layout_height="80dp" />
+
+            <ImageButton
+                android:id="@+id/card2_12"
+                android:layout_width="100dp"
+                android:src="@drawable/card"
+                android:layout_weight="1"
+                android:layout_height="80dp" />
+
+            <ImageButton
+                android:id="@+id/card2_13"
+                android:layout_width="100dp"
+                android:src="@drawable/card"
+                android:layout_weight="1"
+                android:layout_height="80dp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/linearLayout6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            >
+
+            <ImageButton
+                android:id="@+id/card3_1"
+                android:layout_width="100dp"
+                android:background="@drawable/card3_1"
+                android:layout_weight="1"
+                android:layout_height="80dp" />
+
+            <ImageButton
+                android:id="@+id/card3_2"
+                android:layout_width="100dp"
+                android:background="@drawable/card3_2"
+                android:layout_weight="1"
+                android:layout_height="80dp" />
+            <ImageButton
+                android:id="@+id/card3_3"
+                android:layout_width="100dp"
+                android:background="@drawable/card3_3"
+                android:layout_weight="1"
+                android:layout_height="80dp" />
+
+            <ImageButton
+                android:id="@+id/card3_4"
+                android:layout_width="100dp"
+                android:background="@drawable/card3_4"
+                android:layout_weight="1"
+                android:layout_height="80dp" />
+
+            <ImageButton
+                android:id="@+id/card3_5"
+                android:layout_width="100dp"
+                android:background="@drawable/card3_5"
+                android:layout_weight="1"
+                android:layout_height="80dp" />
+
+            <ImageButton
+                android:id="@+id/card3_6"
+                android:layout_width="100dp"
+                android:background="@drawable/card3_6"
+                android:layout_weight="1"
+                android:layout_height="80dp" />
+            <ImageButton
+                android:id="@+id/card3_7"
+                android:layout_width="100dp"
+                android:background="@drawable/card3_7"
+                android:layout_weight="1"
+                android:layout_height="80dp" />
+
+            <ImageButton
+                android:id="@+id/card3_8"
+                android:layout_width="100dp"
+                android:background="@drawable/card3_8"
+                android:layout_weight="1"
+                android:layout_height="80dp" />
+
+            <ImageButton
+                android:id="@+id/card3_9"
+                android:layout_width="100dp"
+                android:background="@drawable/card3_9"
+                android:layout_weight="1"
+                android:layout_height="80dp" />
+
+            <ImageButton
+                android:id="@+id/card3_10"
+                android:layout_width="100dp"
+                android:background="@drawable/card3_10"
+                android:layout_weight="1"
+                android:layout_height="80dp" />
+            <ImageButton
+                android:id="@+id/card3_11"
+                android:layout_width="100dp"
+                android:src="@drawable/card"
+                android:layout_weight="1"
+                android:layout_height="80dp" />
+
+            <ImageButton
+                android:id="@+id/card3_12"
+                android:layout_width="100dp"
+                android:src="@drawable/card"
+                android:layout_weight="1"
+                android:layout_height="80dp" />
+
+            <ImageButton
+                android:id="@+id/card3_13"
+                android:layout_width="100dp"
+                android:src="@drawable/card"
+                android:layout_weight="1"
+                android:layout_height="80dp" />
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:id="@+id/linearLayout7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            >
+
+            <ImageButton
+                android:id="@+id/card4_1"
+                android:layout_width="100dp"
+                android:background="@drawable/card4_1"
+                android:layout_weight="1"
+                android:layout_height="80dp" />
+
+            <ImageButton
+                android:id="@+id/card4_2"
+                android:layout_width="100dp"
+                android:background="@drawable/card4_2"
+                android:layout_weight="1"
+                android:layout_height="80dp" />
+            <ImageButton
+                android:id="@+id/card4_3"
+                android:layout_width="100dp"
+                android:background="@drawable/card4_3"
+                android:layout_weight="1"
+                android:layout_height="80dp" />
+
+            <ImageButton
+                android:id="@+id/card4_4"
+                android:layout_width="100dp"
+                android:background="@drawable/card4_4"
+                android:layout_weight="1"
+                android:layout_height="80dp" />
+
+            <ImageButton
+                android:id="@+id/card4_5"
+                android:layout_width="100dp"
+                android:background="@drawable/card4_5"
+                android:layout_weight="1"
+                android:layout_height="80dp" />
+
+            <ImageButton
+                android:id="@+id/card4_6"
+                android:layout_width="100dp"
+                android:background="@drawable/card4_6"
+                android:layout_weight="1"
+                android:layout_height="80dp" />
+            <ImageButton
+                android:id="@+id/card4_7"
+                android:layout_width="100dp"
+                android:background="@drawable/card4_7"
+                android:layout_weight="1"
+                android:layout_height="80dp" />
+
+            <ImageButton
+                android:id="@+id/card4_8"
+                android:layout_width="100dp"
+                android:background="@drawable/card4_8"
+                android:layout_weight="1"
+                android:layout_height="80dp" />
+
+            <ImageButton
+                android:id="@+id/card4_9"
+                android:layout_width="100dp"
+                android:background="@drawable/card4_9"
+                android:layout_weight="1"
+                android:layout_height="80dp" />
+
+            <ImageButton
+                android:id="@+id/card4_10"
+                android:layout_width="100dp"
+                android:background="@drawable/card4_10"
+                android:layout_weight="1"
+                android:layout_height="80dp" />
+            <ImageButton
+                android:id="@+id/card4_11"
+                android:layout_width="100dp"
+                android:src="@drawable/card"
+                android:layout_weight="1"
+                android:layout_height="80dp" />
+
+            <ImageButton
+                android:id="@+id/card4_12"
+                android:layout_width="100dp"
+                android:src="@drawable/card"
+                android:layout_weight="1"
+                android:layout_height="80dp" />
+
+            <ImageButton
+                android:id="@+id/card4_13"
+                android:layout_width="100dp"
+                android:src="@drawable/card"
+                android:layout_weight="1"
+                android:layout_height="80dp" />
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</ScrollView>
